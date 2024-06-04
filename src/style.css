@@ -1,10 +1,64 @@
+body {
+  background-image: url("../src/media/laugh.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  color: white;
+  background: rgba(161, 48, 48, 0.6);
+  padding: 10px;
+}
 .h1 {
   color: blueviolet;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 200;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+.inputBox {
+  border: 1px solid rgb(48, 3, 48, 0.3);
+  padding: 10px;
+  box-shadow: 0 30px 50px rgba(36, 26, 59, 0.08);
+}
+.enterTopicText {
+  padding: 15px;
+  width: 90%;
+}
+.centerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.enterTopicSubmitButton {
+  display: inline-block;
+  text-align: center;
+  padding-block: 8px;
+  padding-inline: 6px;
+  margin-top: 10px;
+  background-color: rgb(93, 98, 102);
+  border-radius: 6px;
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
 }
 footer {
   border-top: 1px solid rgb(48, 3, 48, 0.3);
   padding: 0;
   text-align: center;
   font-size: 13px;
-  color: rgb(236, 226, 236);
+  color: rgb(93, 98, 102);
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
 }

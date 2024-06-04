@@ -7,19 +7,28 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI poems</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
+    <div class="container">
+      <div class="inputBox">
+        <header>
+          <h1>Funny Poem Generator</h1>
+          <h2>SheCodes AI will generate a humorous poem for you!</h2>
+        </header>
+
+        <form class="centerForm">
+          <input
+            class="enterTopicText"
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+          />
+          <input
+            type="submit"
+            class="enterTopicSubmitButton"
+            value="Generate Funny Poem"
+          />
+        </form>
+      </div>
       <div>
         <br />
         A NOTE TO THE MOTH WHO ATE MY SWEATER
@@ -31,29 +40,34 @@
         <br />I'd rather share my bread and rolls than deal with sweaters full
         of holes. <br />The next time you intend to dine on sweaters that are
         clearly mine, <br />I must insist -- call you to task -- <br />don't
-        take a bite unless you ask. <br />By now, I think you surely know <br />
+        take a bite unless you ask. <br />By now, I think you surely know
+        <br />
         the answer is a big, loud, <br />
         NO! <br />Poem by Denise Rodgers Copyright©Denise Rodgers
       </div>
-    </main>
-    <footer>
-      <p>
-        Coded by
-        <a href="https://github.com/EmyliePm" target="_blank"
-          >Emylie Periot-McCann</a
-        >
-        is
-        <a href="https://github.com/EmyliePm/AI-Poems-Project" target="_blank">
-          open-sourced on GitHub</a
-        >
-        and
-        <a
-          href="https://tourmaline-queijadas-c23768.netlify.app/"
-          target="_blank"
-          >hosted on Netlify</a
-        >
-      </p>
-    </footer>
+
+      <footer>
+        <p>
+          Coded by
+          <a href="https://github.com/EmyliePm" target="_blank"
+            >Emylie Periot-McCann</a
+          >
+          is
+          <a
+            href="https://github.com/EmyliePm/AI-Poems-Project"
+            target="_blank"
+          >
+            open-sourced on GitHub</a
+          >
+          and
+          <a
+            href="https://tourmaline-queijadas-c23768.netlify.app/"
+            target="_blank"
+            >hosted on Netlify</a
+          >
+        </p>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
