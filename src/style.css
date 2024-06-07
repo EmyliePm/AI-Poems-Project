@@ -50,6 +50,11 @@ h2 {
   color: white;
   border: 1px solid rgb(0, 0, 0);
 }
+.enterTopicSubmitButton:hover {
+  color: white;
+  background-color: #301934;
+  cursor: pointer;
+}
 footer {
   border-top: 1px solid rgb(48, 3, 48, 0.3);
   padding: 0;
